@@ -143,6 +143,7 @@ export const getProfiles = () => dispatch => {
 
 // Delete account & profile
 export const deleteAccount = () => dispatch => {
+  //Making a axios request using dispatch
   if (window.confirm("Are you sure? This can NOT be undone!")) {
     axios
       .delete("/api/profile")
