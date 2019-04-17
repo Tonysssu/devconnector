@@ -58,4 +58,4 @@ Experience.propTypes = {
 export default connect(
   null,
   { deleteExperience }
-)(Experience);
+)(Experience); //no need to re-direct
